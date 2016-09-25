@@ -7,8 +7,8 @@ Swarm是由Docker官方提供的容器编排工具，它使用标准的Docker AP
 | 要素及概念 | 说明 |
 | --- | --- |
 | Managers | Managers负责集群级分布式任务管理，负责调度Swarm集群的节点 |
-| Workers | y |
-|  |  |
-|  |  |
-|  |  |
+| Workers | 运行Managers分配的容器
+| Services | Swarm集群中指定的一组容器 |
+| Tasks | the individual Docker containers running the image, plus commands, needed by a particular service　|
+| Key-Value存储 |　etcd、Consul或者Zookeeper集群，用来存储swarm的状态数据并提供服务发现功能
 
