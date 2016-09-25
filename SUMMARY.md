@@ -1,7 +1,7 @@
 # Summary
 
-* [PaaS权威指南](paas权威指南.md)
-* [First Chapter](chapter1.md)
+* [PaaS权威指南](README.md)
+* [First Chapter](第一部分.md)
   * ffdddd
 
 * [第二部分：主流开源PaaS技术框架](第二部分.md)
